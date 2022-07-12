@@ -1,0 +1,74 @@
+.container {
+    border: 2px dotted red;
+
+}
+
+.information {
+    padding: 8px 50px;
+
+}
+
+
+
+.info {
+    padding: 15px 67px;
+    margin: 9px;
+}
+
+.gender {
+    padding: 15px 67px;
+    margin: 9px;
+}
+
+.degree {
+
+    padding: 15px 67px;
+    margin: 9px;
+}
+
+.subject {
+
+    padding: 15px 67px;
+    margin: 9px;
+}
+
+.button {
+
+    padding: 15px 67px;
+    margin: 9px;
+}
+
+#fname {
+    margin-left: 46px;
+}
+
+#mail {
+    margin-left: 45px;
+}
+
+#pass {
+    margin-left: 23px;
+}
+
+#male {
+    margin-left: 23px;
+}
+
+#Degree {
+    margin-left: 23px;
+    padding: 8px 50px;
+}
+
+.checkbox {
+    margin-left: 118px;
+}
+
+/*css on buttons*/
+.btn {
+    color: white;
+    background-color: #c51212;
+    border: 2px solid #c51212;
+    padding: 5px 35px;
+    border-radius: 15px;
+
+}

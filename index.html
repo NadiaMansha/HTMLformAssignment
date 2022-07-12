@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!--Main div-->
+    <div class="container">
+        <h1>HTML Form</h1>
+        <form action="#" method="get">
+            <!-- basic information-->
+            <div class="info">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="fname" class="information" placeholder="Enter your name">
+            </div>
+            <div class="info">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="mail" class="information" placeholder="Enter your email">
+            </div>
+            <div class="info">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="pass" class="information" placeholder="Enter your password">
+            </div> 
+
+            <!--radio buttons for gender-->
+            <div class="gender">
+                Gender
+                <input type="radio" name="Gender" id="male" value="Male">Male
+                <input type="radio" name="Gender" id="female" value="Female">Female
+            </div> 
+
+            <!-- selection box for degree-->
+            <div class="degree">
+                Degree <select name="degree" id="Degree" >
+                    <option value="BS II">BS IT </option>
+                    <option value="BS physics">BS physics</option>
+                    <option value="BS chemistry">BS chemistry </option>
+                    <option value="BS mathematics">BS mathematics </option>
+                    <option value="BS sociology">BS sociology </option>
+                </select> 
+
+                <!--check boxes for subject-->
+                <div class="subject">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="subject1" id="s1" value="Computer Programming">Computer Programming
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="subject2" id="s2" value="Web Design"> Web Design
+                </div>
+                <div class="checkbox1">
+                    Course of interest <input type="checkbox" name="subject3" id="s3" value="Graphic Design"> Graphic
+                    Design
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="subject4" id="s4" value="Android Application"> Android Application
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="subject5" id="s5" value="MS Office"> MS Office
+                </div>
+            </div> 
+            
+            <!--buttons-->
+            <div class="button">
+                <input type="submit" class="btn" value="SUBMIT">
+                <input type="reset" class="btn" value="RESET">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
